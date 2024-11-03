@@ -1,0 +1,47 @@
+React
+Class Component:
+
+ไม่มี ในโค้ดที่ส่งมา
+Function Component:
+
+ไฟล์: App.js, InputForm.js, NavBar.js, About.js, DataFetch.js, DataProvider.js
+ทุกไฟล์ในกลุ่มนี้ใช้ Function Component
+การกำหนดและการจัดการ Event:
+
+ไฟล์: InputForm.js, DataFetch.js, NavBar.js
+มีการจัดการ Event ต่างๆ เช่น onSubmit, onChange, และ onClick
+Refs และ State:
+
+ไฟล์: InputForm.js, DataFetch.js, DataProvider.js
+ใช้ State ผ่าน useState ในทุกไฟล์ที่กล่าวถึง
+Refs: ไม่มี ในโค้ดที่ส่งมา
+Effect และ Context:
+
+Effect:
+ไฟล์: InputForm.js, DataFetch.js
+ใช้ useEffect เพื่อติดตามการเปลี่ยนแปลงและจัดการการโหลดข้อมูล
+Context:
+ไฟล์: DataProvider.js, NavBar.js, InputForm.js, About.js
+ใช้ DataContext เพื่อแชร์ข้อมูลระหว่าง Component
+Route:
+
+ไฟล์: App.js
+ใช้ Routes และ Route เพื่อกำหนดเส้นทางของแอปพลิเคชัน
+Form และ Input:
+
+ไฟล์: InputForm.js
+สร้างฟอร์มและจัดการข้อมูลจาก input fields
+React Hook:
+
+ไฟล์: InputForm.js, DataFetch.js, NavBar.js, DataProvider.js
+ใช้ Hooks เช่น useState, useEffect, และ useContext
+BootStrap:
+
+ไฟล์: App.js, NavBar.js, InputForm.js, About.js, DataFetch.js
+ใช้ Bootstrap สำหรับจัดรูปแบบ UI ผ่านคลาส CSS
+Node.js
+Rest API และ Fetch:
+ไฟล์: server.js (Node.js)
+มีการสร้าง REST API ด้วย Express โดยมี endpoint เช่น /submit และ /fetch-test
+ไฟล์: DataFetch.js (React)
+ใช้ Fetch API เพื่อร้องขอข้อมูลจากเซิร์ฟเวอร์
