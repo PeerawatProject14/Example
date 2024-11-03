@@ -1,0 +1,31 @@
+/* TestFetch.css */
+
+.container {
+    max-width: 800px; /* จำกัดความกว้างของ container */
+    margin: auto; /* จัดให้อยู่กลาง */
+}
+
+h2 {
+    color: #007bff; /* เปลี่ยนสีฟอนต์ของหัวข้อ */
+}
+
+.card {
+    transition: transform 0.2s; /* เพิ่มเอฟเฟกต์เมื่อ hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* ขยายการ์ดเมื่อ hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* กำหนดสีพื้นหลัง */
+    border: none; /* เอาขอบออก */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* เปลี่ยนสีเมื่อ hover */
+}
+
+.text-danger {
+    font-weight: bold; /* ทำให้ข้อความ error หนักขึ้น */
+}

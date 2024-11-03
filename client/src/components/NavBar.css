@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    margin: 0 15px;
+}
+
+.navbar-text {
+    margin-left: 20px;
+    font-weight: bold;
+}

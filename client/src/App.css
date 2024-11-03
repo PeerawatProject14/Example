@@ -1,0 +1,6 @@
+/* client/src/App.css */
+/* ใช้สำหรับสไตล์ทั่วไประหว่างแอป */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}

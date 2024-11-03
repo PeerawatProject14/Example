@@ -1,0 +1,8 @@
+body {
+  background-color: #f4f4f4; /* สีพื้นหลังของทั้งแอป */
+  font-family: Arial, sans-serif; /* ฟอนต์สำหรับทั้งแอป */
+}
+
+h2 {
+  color: #333; /* สีของหัวข้อ */
+}
